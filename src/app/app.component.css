@@ -1,0 +1,78 @@
+.app-body-container {
+  background-color: #e6e6e6;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+}
+
+.app-body-container aside {
+  width: 20%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-container {
+  margin: 30px 0;
+  width: 100px;
+  height: 100px;
+  background-color: #183752;
+}
+
+.horizontal-line,
+.vertical-line {
+  background-color: #c7c7c7;
+}
+
+.horizontal-line {
+  margin: 20px 0;
+  width: 100%;
+  height: 1px;
+}
+
+.switch-container {
+  width: 100%;
+}
+
+.each-switch-container {
+  margin: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-img,
+.heart-img,
+.sale-img {
+  width: 40px;
+  height: 40px;
+  background-color: #686868;
+}
+
+.status-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.status-container h3,
+.app-search-input,
+.delivered-button-search {
+  width: 100%;
+  margin: 6px 0;
+}
+
+.vertical-line {
+  margin-top: 6.3em;
+  height: 70%;
+  width: 1px;
+}
+
+.app-container {
+  width: 79%;
+  padding: 0 50px;
+}

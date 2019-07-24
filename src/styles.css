@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.material-icons {
+  font-size: 50px;
+  color: #ee8d38;
+}
+
+.app-search-input {
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  border-width: 1px;
+}
