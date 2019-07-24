@@ -76,3 +76,11 @@
   width: 79%;
   padding: 0 50px;
 }
+
+.app-body-container .material-icons {
+  position: absolute;
+  font-size: 90px;
+  top: 80vh;
+  left: 90vw;
+  cursor: pointer;
+}

@@ -1,27 +1,27 @@
 <div class="home-container">
-  <div class="load-container">
+  <div class="load-container" *ngFor="let item of shippingList">
     <i class="material-icons">
       check_circle
     </i>
     <div class="load-data-container">
       <div class="date-data">
-        <p>Monday</p>
-        <p>10th 2:28</p>
-        <p>PM</p>
+        <p>{{ item.date.dayName }}</p>
+        <p>{{ item.date.day }} {{ item.date.hour }}</p>
+        <p>{{ item.date.meridiem }}</p>
       </div>
       <div class="origin-destination-data">
-        <p>Houston, TX, 33619</p>
+        <p>{{ item.origin }}</p>
         <i class="material-icons">
           keyboard_arrow_down
         </i>
-        <p>Atlanta, GA, 30123</p>
+        <p>{{ item.destination }}</p>
       </div>
       <div class="price-description">
         <i class="material-icons">
           local_shipping
         </i>
-        <b>$250.00</b>
-        <div class="cant-box">1</div>
+        <b>${{ item.price }}</b>
+        <div class="cant-box">{{ item.quantity }}</div>
         <i class="material-icons">
           more_vert
         </i>
