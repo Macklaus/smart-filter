@@ -11,13 +11,22 @@
   flex-flow: row wrap;
 }
 
-.link {
+.link,
+.link-activated {
   text-decoration: none;
-  color: #193948;
   text-align: center;
   padding: 20px 0;
   font-size: 0.8em;
   flex-grow: 1;
+}
+
+.link {
+  color: #193948;
+}
+
+.link-activated {
+  background-color: #193948;
+  color: #ffffff;
 }
 
 .nav-bar-search-section {

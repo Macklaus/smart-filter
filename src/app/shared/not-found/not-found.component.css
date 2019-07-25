@@ -1,0 +1,8 @@
+.not-found-container {
+  text-align: center;
+  font-size: 90px;
+}
+
+.not-found-container p .material-icons {
+  font-size: 80px;
+}
